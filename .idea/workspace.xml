@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="45d8ca51-00e2-4b87-a5b6-8ae0754fb1d5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/098163f9-994b-44d7-95c9-e25044bd6efb-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/0ca65bd4-3361-4bfe-81be-d5dab9fb31f3-attachment" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/0d3800bb-1590-4462-896e-99b0975bccf2-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/10da60d3-e17f-43f7-ad30-2895bb2962df-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/17aca1e2-6513-48f0-9cc9-b5c59f7b19c3-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/1d1df193-8ad2-4725-9819-cdb78f62245a-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/3b2027b4-054e-4da9-98ae-484d6fbaa9c3-attachment" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/49760245-d899-47f0-8d1d-897c2803f8fb-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/7c160c43-49b0-41d1-8609-30e26c6381a2-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/8285f9cb-23d1-464b-a9ee-f0eafdf5cf27-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/84b4d426-78b9-400d-91ee-26d656d9325b-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/8d769ce6-e29f-4ccf-bb95-e41b4de68151-attachment" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/906f5d93-3303-4664-91e9-14ca21eba7db-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/ac988cd3-dddc-4d21-9d08-2d37fe23c1e2-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/b46215f9-bb5f-43d3-8a77-154397b5adc3-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/bdd9de8e-d556-45a3-84a0-e04cbbc9bf8a-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/beaab604-e11f-4c53-8ac9-73c07489f07f-attachment" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/c4b2076a-c3a9-4baa-a63f-a930dc74edcf-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/d6a0cc6f-fc90-46f6-bfd8-af7db4279dbe-attachment" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/f161ea32-c9ad-4274-9d27-243437242d02-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/DataBase/NbaTeamsNames.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/MyMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/BasePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/YahooHomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/YahooLoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/YahooRegisterPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/YahooSportPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Tests/YahooHomeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Tests/YahooLoginTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Tests/YahooRegisterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Tests/YahooSportTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Utils.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Dt9s4Wv4NrZOmCSLf5FFoM3zHt" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\yairs\IdeaProjects\YahooFinalProject\src\test\java\DataBase" />
+      <recent name="C:\Users\yairs\IdeaProjects\YahooFinalProject\src\test\java" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.&lt;default&gt; (4)">
+    <configuration name="&lt;default&gt; (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="YahooFinalProject" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="&lt;default&gt; (2)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="YahooFinalProject" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="&lt;default&gt; (3)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="YahooFinalProject" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="&lt;default&gt; (4)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="YahooFinalProject" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="&lt;default&gt;" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="YahooFinalProject" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.&lt;default&gt; (4)" />
+        <item itemvalue="TestNG.&lt;default&gt; (3)" />
+        <item itemvalue="TestNG.&lt;default&gt; (2)" />
+        <item itemvalue="TestNG.&lt;default&gt; (1)" />
+        <item itemvalue="TestNG.&lt;default&gt;" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="45d8ca51-00e2-4b87-a5b6-8ae0754fb1d5" name="Changes" comment="" />
+      <created>1661507719760</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1661507719760</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Pages/BasePage.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
