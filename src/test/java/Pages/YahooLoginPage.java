@@ -24,7 +24,7 @@ public class YahooLoginPage extends BasePage {
         click(nextButton);
         waitUntilVisibilityElementLocated(emailErrorMsg);
         System.out.println(findElem(emailErrorMsg).getText());
-        Allure.addAttachment("Go to Yahoo.com", new ByteArrayInputStream(((TakesScreenshot) getDriver()).getScreenshotAs(OutputType.BYTES)));
+        Allure.addAttachment("error message after click continue with empty email", new ByteArrayInputStream(((TakesScreenshot) getDriver()).getScreenshotAs(OutputType.BYTES)));
     }
     @Step("Click next with only letters in email field and print the error message")
     public void clickNextWithOnlyLettersInEmailField()
@@ -33,7 +33,7 @@ public class YahooLoginPage extends BasePage {
         click(nextButton);
         waitUntilVisibilityElementLocated(emailErrorMsg);
         System.out.println(findElem(emailErrorMsg).getText());
-        Allure.addAttachment("Go to Yahoo.com", new ByteArrayInputStream(((TakesScreenshot) getDriver()).getScreenshotAs(OutputType.BYTES)));
+        Allure.addAttachment("error message after click continue with wrong email", new ByteArrayInputStream(((TakesScreenshot) getDriver()).getScreenshotAs(OutputType.BYTES)));
     }
     @Step("Delete email field value")
     public void delete()
@@ -44,34 +44,36 @@ public class YahooLoginPage extends BasePage {
     @Step("Click next with only numbers in email field and print the error message")
     public void clickNextWithOnlyNumbersInEmailField()
     {
-        typeInto("11111122223", emailInput);
+        typeInto("A1111122223", emailInput);
         click(nextButton);
         waitUntilVisibilityElementLocated(emailErrorMsg);
         System.out.println(findElem(emailErrorMsg).getText());
-        Allure.addAttachment("Go to Yahoo.com", new ByteArrayInputStream(((TakesScreenshot) getDriver()).getScreenshotAs(OutputType.BYTES)));
+        Allure.addAttachment("error message after click continue with wrong email", new ByteArrayInputStream(((TakesScreenshot) getDriver()).getScreenshotAs(OutputType.BYTES)));
     }
     @Step("Click next correct email")
     public void clickNextWithCorrectEmail()
     {
-        typeInto("yairslonim@yahoo.com", emailInput);
+        typeInto("yairslonim", emailInput);
         click(nextButton);
-        Allure.addAttachment("Go to Yahoo.com", new ByteArrayInputStream(((TakesScreenshot) getDriver()).getScreenshotAs(OutputType.BYTES)));
+
+        Allure.addAttachment("click next with correct email", new ByteArrayInputStream(((TakesScreenshot) getDriver()).getScreenshotAs(OutputType.BYTES)));
+        visitSite("https://www.yahoo.com/"); // yahoo suddenly start to check if im robot, so now i can't login
     }
-    @Step("Click next with wrong password and print the error message")
-    public void clickNextWithWrongPassword()
-    {
-        waitUntilVisibilityElementLocated(passwordInput);
-        typeInto("123123", passwordInput);
-        click(nextButton);
-        waitUntilVisibilityElementLocated(passwordErrorMsg);
-        System.out.println(findElem(passwordErrorMsg));
-        Allure.addAttachment("Go to Yahoo.com", new ByteArrayInputStream(((TakesScreenshot) getDriver()).getScreenshotAs(OutputType.BYTES)));
-    }
-    @Step("Click next with correct password")
-    public void clickNextWithCorrectDetails()
-    {
-        typeInto("@123123123Aa", passwordInput);
-        click(nextButton);
-        Allure.addAttachment("Go to Yahoo.com", new ByteArrayInputStream(((TakesScreenshot) getDriver()).getScreenshotAs(OutputType.BYTES)));
-    }
+//    @Step("Click next with wrong password and print the error message")
+//    public void clickNextWithWrongPassword()
+//    {
+//        waitUntilVisibilityElementLocated(passwordInput);
+//        typeInto("123123", passwordInput);
+//        click(nextButton);
+//        waitUntilVisibilityElementLocated(passwordErrorMsg);
+//        System.out.println(findElem(passwordErrorMsg));
+//        Allure.addAttachment("error message after click continue with wrong password", new ByteArrayInputStream(((TakesScreenshot) getDriver()).getScreenshotAs(OutputType.BYTES)));
+//    }
+//    @Step("Click next with correct password")
+//    public void clickNextWithCorrectDetails()
+//    {
+//        typeInto("@123123123Aa", passwordInput);
+//        click(nextButton);
+//        Allure.addAttachment("click next with correct password", new ByteArrayInputStream(((TakesScreenshot) getDriver()).getScreenshotAs(OutputType.BYTES)));
+//    }
 }

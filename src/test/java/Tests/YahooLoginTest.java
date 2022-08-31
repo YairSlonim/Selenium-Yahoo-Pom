@@ -25,8 +25,8 @@ public class YahooLoginTest {
         a.clickNextWithOnlyNumbersInEmailField();
         a.delete();
         a.clickNextWithCorrectEmail();
-        a.clickNextWithWrongPassword();
-        a.clickNextWithCorrectDetails();
+        //a.clickNextWithWrongPassword();
+        //a.clickNextWithCorrectDetails();
 
     }
 }

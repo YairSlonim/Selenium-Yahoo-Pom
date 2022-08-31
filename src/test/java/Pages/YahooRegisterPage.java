@@ -40,9 +40,9 @@ public class YahooRegisterPage extends BasePage {
             " and print the error message")
     public void clickContinueWithOnlyNumbersInEmail()
     {
-        typeInto("yair",firstName);
-        typeInto("slonim",lastName);
-        typeInto("123123", emailInput);
+        typeInto("yai",firstName);
+        typeInto("slonima",lastName);
+        typeInto("A23123", emailInput);
         typeInto("123123123",passwordInput);
         typeInto("1997",birthYear);
         click(continueButton);
@@ -61,7 +61,7 @@ public class YahooRegisterPage extends BasePage {
         click(continueButton);
         waitUntilVisibilityElementLocated(passwordErrorMsg);
         System.out.println("empty password msg : "+findElem(passwordErrorMsg).getText());
-        Allure.addAttachment("Go to Yahoo.com", new ByteArrayInputStream(((TakesScreenshot) getDriver()).getScreenshotAs(OutputType.BYTES)));
+        Allure.addAttachment("error message after click continue with empty password", new ByteArrayInputStream(((TakesScreenshot) getDriver()).getScreenshotAs(OutputType.BYTES)));
     }
     @Step("Click continue with only numbers in password field all the rest fields are correct" +
             " and print the error message")
@@ -91,7 +91,7 @@ public class YahooRegisterPage extends BasePage {
     {
         typeInto("yair",firstName);
         typeInto("slonim",lastName);
-        typeInto("yairslonim", emailInput);
+        typeInto("yairslonimm", emailInput);
         typeInto("@123123123Aa",passwordInput);
         typeInto("1997",birthYear);
         click(continueButton);

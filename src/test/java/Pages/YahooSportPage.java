@@ -28,17 +28,19 @@ public class YahooSportPage extends BasePage {
         WebElement element = findElem(nbaButton);
         Actions action = new Actions(getDriver());
         action.moveToElement(element).perform();
-        Allure.addAttachment("Go to Yahoo.com", new ByteArrayInputStream(((TakesScreenshot) getDriver()).getScreenshotAs(OutputType.BYTES)));
+        impWait();
+        Allure.addAttachment("nba button hover", new ByteArrayInputStream(((TakesScreenshot) getDriver()).getScreenshotAs(OutputType.BYTES)));
     }
     @Step("Save first five teams names in a list and write them into new excel file")
     public void getAllNbaTeamsNames() {
         waitUntilVisibilityElementLocated(nbaTeamsNames);
-        // List<WebElement> temp = findElems(By.cssSelector("#subnavhtml-NBA > div > div:nth-child(1)> div:nth-child(1) > div:nth-child(2) > div"));
-
         List<WebElement> listOfNbaTeams = findElems(By.cssSelector("#subnavhtml-NBA > div > div:nth-child(1)> div:nth-child(1) > div:nth-child(2) > div"));
+
         writeListToFile(listOfNbaTeams);
+
         click(nbaButton);
-        Allure.addAttachment("Go to Yahoo.com", new ByteArrayInputStream(((TakesScreenshot) getDriver()).getScreenshotAs(OutputType.BYTES)));
+
+        Allure.addAttachment("get teams names", new ByteArrayInputStream(((TakesScreenshot) getDriver()).getScreenshotAs(OutputType.BYTES)));
     }
     @Step("Write list into new excel file")
     public void writeListToFile(List<WebElement> lst) {
@@ -52,7 +54,8 @@ public class YahooSportPage extends BasePage {
         } catch (Exception ex) {
             System.out.println(ex);
         }
-        Allure.addAttachment("Go to Yahoo.com", new ByteArrayInputStream(((TakesScreenshot) getDriver()).getScreenshotAs(OutputType.BYTES)));
+
+        Allure.addAttachment("write to excel", new ByteArrayInputStream(((TakesScreenshot) getDriver()).getScreenshotAs(OutputType.BYTES)));
     }
     @Step("Read teams names from excel then send each one separately, then print the avg team rebounds" +
             " that returned from the search function")
@@ -74,7 +77,7 @@ public class YahooSportPage extends BasePage {
             System.out.println(ex);
 
         }
-        Allure.addAttachment("Go to Yahoo.com", new ByteArrayInputStream(((TakesScreenshot) getDriver()).getScreenshotAs(OutputType.BYTES)));
+        Allure.addAttachment("type the names into search field", new ByteArrayInputStream(((TakesScreenshot) getDriver()).getScreenshotAs(OutputType.BYTES)));
     }
     @Step("type into search field the team name then search for the correct result and click on it ")
     public void search(String teamName) {
@@ -92,6 +95,6 @@ public class YahooSportPage extends BasePage {
                 break;
             }
         }
-        Allure.addAttachment("Go to Yahoo.com", new ByteArrayInputStream(((TakesScreenshot) getDriver()).getScreenshotAs(OutputType.BYTES)));
+        Allure.addAttachment("search help function", new ByteArrayInputStream(((TakesScreenshot) getDriver()).getScreenshotAs(OutputType.BYTES)));
     }
 }

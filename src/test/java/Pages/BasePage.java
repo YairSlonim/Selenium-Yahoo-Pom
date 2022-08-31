@@ -62,9 +62,9 @@ public class BasePage {
         return driver.findElement(locator).getText();
     }
 
-    public void typeInto(String Text, By locator){
+    public WebElement typeInto(String Text, By locator){
         findElem(locator).sendKeys(Text);
-        //return findElem(locator);
+        return findElem(locator);
     }
 
     public void click(By locator) {
